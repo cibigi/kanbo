@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kanbo</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+		
+		<link href="main.css" rel="stylesheet">
+		<script src="main.js"></script>
+	</head>
+
+	<body>
+		<div id="input">
+			<h1>Kanbo</h1>
+			<input id="new">
+			<button id="add">Add</button>
+		</div>
+
+		<div id="view">
+			<div class="vertical sortable" id="todo">
+				<h2>To do</h2>
+			</div>
+			
+			<div class="vertical sortable" id="doing">
+				<h2>Doing</h2>
+			</div>
+			
+			<div class="vertical sortable" id="done">
+				<h2>Done</h2>
+			</div>
+		</div>
+
+		<div class="sortable" id="rubbish">
+			<h2>Delete task</h2>
+		</div>
+
+		<footer>
+			Kanbo 0.1<br>
+			cibigi.github.io/kanbo<br>
+			by Christian Battista Giannarelli<br>
+			Released under GNU GPL v3.
+		</footer>
+	</body>
+</html>
