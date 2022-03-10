@@ -94,6 +94,9 @@ input, button {
 	z-index: 4px;
 	font-size: 18px;
 	
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
 	cursor: move;
 }
 
